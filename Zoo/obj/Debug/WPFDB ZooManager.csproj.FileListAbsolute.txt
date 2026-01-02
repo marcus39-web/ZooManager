@@ -1,0 +1,15 @@
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\bin\Debug\Zoo.exe.config
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\bin\Debug\Zoo.exe
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\bin\Debug\Zoo.pdb
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\WPFDB ZooManager.csproj.AssemblyReference.cache
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\MainWindow.g.cs
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\App.g.cs
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\Zoo_MarkupCompile.cache
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\Zoo_MarkupCompile.lref
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\MainWindow.baml
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\Zoo.g.resources
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\Zoo.Properties.Resources.resources
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\WPFDB ZooManager.csproj.GenerateResource.cache
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\WPFDB ZooManager.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\Zoo.exe
+D:\Visual Studio\Dev\Repos\Grundlagen\Zoo\Zoo\obj\Debug\Zoo.pdb

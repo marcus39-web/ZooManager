@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="421*"/>
+            <ColumnDefinition Width="379*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Zooliste" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0,-0.39"/>
+        <ListBox Name="listZoos" HorizontalAlignment="Left" SelectionChanged="listZoos_SelectionChanged" Height="175" Margin="10,41,0,0" VerticalAlignment="Top" Width="150"/>
+        <ListBox Name="listAssociatedAnimals" HorizontalAlignment="Left" Height="175" Margin="197,41,68,218" VerticalAlignment="Top" Width="150"/>
+        <Label Content="Tiere im ausgewählten Zoo" HorizontalAlignment="Left" Margin="197,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.335,-6.773"/>
     </Grid>
 </Window>

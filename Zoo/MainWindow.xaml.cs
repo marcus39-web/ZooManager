@@ -17,6 +17,7 @@ namespace Zoo
             string connectionString = ConfigurationManager.ConnectionStrings["Zoo.Properties.Settings.UdemyDBConnectionString"].ConnectionString;
             sqlConnection = new SqlConnection(connectionString);
             ShowZoos();
+            ShowAllAnimals();
         }
 
         public void ShowZoos()
@@ -34,6 +35,29 @@ namespace Zoo
                     listZoos.DisplayMemberPath = "Location";
                     listZoos.SelectedValuePath = "Id";
                     listZoos.ItemsSource = zooTable.DefaultView;
+                }
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.ToString());
+            }
+        }
+
+        public void ShowAllAnimals()
+        {
+            try
+            {
+                string query = "SELECT * FROM Animal";
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConnection);
+
+                using (sqlDataAdapter)
+                {
+                    DataTable animalTable = new DataTable();
+                    sqlDataAdapter.Fill(animalTable);
+
+                    listAllAnimals.DisplayMemberPath = "Name";
+                    listAllAnimals.SelectedValuePath = "Id";
+                    listAllAnimals.ItemsSource = animalTable.DefaultView;
                 }
             }
             catch (Exception e)
@@ -77,5 +101,7 @@ namespace Zoo
         {
             ShowAssociatedAnimals();
         }
+
+     
     }
 }
